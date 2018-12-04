@@ -1,6 +1,6 @@
 $(document).ready(function() {
-  const apiRoot = 'https://git.heroku.com/mighty-brushlands-49276.git/v1/task/';
-  const trelloApiRoot = 'https://git.heroku.com/mighty-brushlands-49276.git/v1/trello/';
+  const apiRoot = 'https://mighty-brushlands-49276.herokuapp.com/v1/task/';
+  const trelloApiRoot = 'https://mighty-brushlands-49276.herokuapp.com/v1/trello/';
   const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   const $tasksContainer = $('[data-tasks-container]');
 
