@@ -1,0 +1,9 @@
+input {
+    width: 50px;
+}
+
+.clock{
+    position: absolute;
+    left: 50%;
+    color: blue;
+}
